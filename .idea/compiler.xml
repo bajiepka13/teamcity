@@ -6,8 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tc" />
+        <module name="client" />
+        <module name="common" />
+        <module name="admin" />
+        <module name="user-interface" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ui" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

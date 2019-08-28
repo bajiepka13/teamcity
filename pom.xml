@@ -7,6 +7,8 @@
     <groupId>org.bajiepka</groupId>
     <artifactId>tc</artifactId>
     <version>1.0</version>
+    <packaging>pom</packaging>
+
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -15,6 +17,47 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <profiles>
+        <profile>
+            <id>admin</id>
+            <modules>
+                <module>admin</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>client</id>
+            <modules>
+                <module>client</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>common</id>
+            <modules>
+                <module>common</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>ui</id>
+            <modules>
+                <module>ui</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>dev</id>
+            <modules>
+                <module>common</module>
+                <module>client</module>
+                <module>admin</module>
+                <module>ui</module>
+            </modules>
+        </profile>
+
+    </profiles>
 
     <build>
         <plugins>
