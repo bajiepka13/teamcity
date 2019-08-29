@@ -23,26 +23,33 @@
             <id>admin</id>
             <modules>
                 <module>admin</module>
+                <module>common</module>
+                <module>application</module>
             </modules>
         </profile>
-
         <profile>
             <id>client</id>
             <modules>
                 <module>client</module>
+                <module>common</module>
+                <module>application</module>
             </modules>
         </profile>
 
         <profile>
-            <id>common</id>
+            <id>library</id>
             <modules>
+                <module>library</module>
                 <module>common</module>
+                <module>application</module>
             </modules>
         </profile>
 
         <profile>
             <id>ui</id>
             <modules>
+                <module>application</module>
+                <module>common</module>
                 <module>ui</module>
             </modules>
         </profile>
@@ -50,10 +57,12 @@
         <profile>
             <id>dev</id>
             <modules>
-                <module>common</module>
                 <module>client</module>
+                <module>common</module>
                 <module>admin</module>
                 <module>ui</module>
+                <module>library</module>
+                <module>application</module>
             </modules>
         </profile>
 
