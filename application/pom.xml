@@ -7,6 +7,9 @@
     <groupId>org.bajiepka</groupId>
     <artifactId>application</artifactId>
     <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>Spring boot (Tomcat container)</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

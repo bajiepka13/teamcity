@@ -9,7 +9,7 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>Общие библиотеки</name>
+    <name>Библиотеки проекта</name>
     <url>http://maven.apache.org</url>
 
     <parent>
