@@ -31,7 +31,6 @@
                 <filtering>true</filtering>
             </resource>
         </resources>
-        <finalName>user-interface</finalName>
     </build>
 
 </project>
